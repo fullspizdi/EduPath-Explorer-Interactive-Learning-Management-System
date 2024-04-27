@@ -1,0 +1,38 @@
+{
+  "application": {
+    "name": "EduPath Explorer",
+    "version": "1.0.0",
+    "environment": "production",
+    "supportedLanguages": ["English", "Spanish", "French", "German", "Chinese", "Arabic", "Russian", "Portuguese"],
+    "defaultLanguage": "English"
+  },
+  "aiServices": {
+    "openAI": {
+      "apiKey": "YOUR_OPENAI_API_KEY_HERE"
+    },
+    "googleAI": {
+      "apiKey": "YOUR_GOOGLE_AI_API_KEY_HERE"
+    },
+    "anthropic": {
+      "apiKey": "YOUR_ANTHROPIC_API_KEY_HERE"
+    }
+  },
+  "database": {
+    "type": "mongoDB",
+    "connectionString": "YOUR_DATABASE_CONNECTION_STRING_HERE"
+  },
+  "server": {
+    "port": 3000
+  },
+  "features": {
+    "realTimeCollaboration": true,
+    "gamification": true,
+    "predictiveAnalytics": true,
+    "offlineAccess": true
+  },
+  "accessibility": {
+    "screenReaderEnabled": true,
+    "textToSpeechEnabled": true,
+    "customizableUI": true
+  }
+}
